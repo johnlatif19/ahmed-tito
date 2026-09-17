@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Work — Ahmed Tito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="gallery-header">
+    <div class="container header-inner">
+      <a href="index.html" class="back-link">
+        <span class="back-arrow">←</span>
+        <span data-i18n="gallery.back">رجوع</span>
+      </a>
+      <a href="index.html" class="gallery-logo">Ahmed Tito</a>
+      <button class="lang-toggle" id="langToggle">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- GALLERY HERO -->
+    <section class="gallery-hero">
+      <div class="container">
+        <div class="gallery-head reveal">
+          <span class="gallery-num">04</span>
+          <span class="gallery-label" data-i18n="gallery.label">كل الأعمال</span>
+        </div>
+        <h1 class="gallery-title reveal">
+          <span data-i18n="gallery.title1">معرض</span>
+          <span class="italic" data-i18n="gallery.title2">الصور</span>
+        </h1>
+        <p class="gallery-sub reveal">
+          <span data-i18n="gallery.count">31 صورة مختارة</span>
+          <span class="dot">✦</span>
+          <span data-i18n="gallery.years">2022 — 2025</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- FILTERS -->
+    <section class="filters">
+      <div class="container">
+        <ul class="filter-list">
+          <li><button class="filter-btn active" data-filter="all" data-i18n="filter.all">الكل</button></li>
+          <li><button class="filter-btn" data-filter="portrait" data-i18n="filter.portrait">بورتريه</button></li>
+          <li><button class="filter-btn" data-filter="fashion" data-i18n="filter.fashion">موضة</button></li>
+          <li><button class="filter-btn" data-filter="event" data-i18n="filter.event">فعاليات</button></li>
+          <li><button class="filter-btn" data-filter="street" data-i18n="filter.street">شارع</button></li>
+          <li><button class="filter-btn" data-filter="lifestyle" data-i18n="filter.lifestyle">لايف ستايل</button></li>
+          <li><button class="filter-btn" data-filter="commercial" data-i18n="filter.commercial">تجاري</button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- GALLERY GRID -->
+    <section class="gallery-grid-section">
+      <div class="container">
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- الصور تُضاف هنا بواسطة JavaScript -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="gallery-footer">
+    <div class="container footer-inner">
+      <span>Ahmed Tito</span>
+      <a href="index.html" data-i18n="gallery.backHome">العودة للرئيسية</a>
+      <span class="footer-copy">© 2025</span>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-overlay"></div>
+    <div class="lightbox-content">
+      <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      <div class="lightbox-info">
+        <span id="lightboxTitle"></span>
+        <span id="lightboxCat"></span>
+      </div>
+      <button class="lightbox-close" id="lightboxClose">✕</button>
+      <button class="lightbox-prev" id="lightboxPrev">←</button>
+      <button class="lightbox-next" id="lightboxNext">→</button>
+    </div>
+  </div>
+
+  <script src="js/gallery.js"></script>
+</body>
+</html>
