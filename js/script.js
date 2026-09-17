@@ -60,11 +60,9 @@
       'contact.heading2': 'شيئًا',
       'contact.heading3': 'لا يُنسى.',
       'contact.sub': 'متاح لمشاريع مختارة.',
-      'contact.name': 'الاسم',
-      'contact.email': 'البريد الإلكتروني',
-      'contact.message': 'الرسالة',
-      'contact.send': 'إرسال الاستفسار',
-      'contact.success': 'تم استلام استفسارك. سنتواصل معك قريبًا.',
+      'contact.whatsapp': 'واتساب',
+      'contact.instagram': 'إنستجرام',
+      'contact.facebook': 'فيسبوك',
 
       'footer.location': '[الموقع]',
       'footer.top': 'للأعلى ↑'
@@ -123,11 +121,9 @@
       'contact.heading2': 'something',
       'contact.heading3': 'memorable.',
       'contact.sub': 'Available for selected projects.',
-      'contact.name': 'Name',
-      'contact.email': 'Email',
-      'contact.message': 'Message',
-      'contact.send': 'Send Inquiry',
-      'contact.success': 'Your inquiry has been received. We will get back to you soon.',
+      'contact.whatsapp': 'WhatsApp',
+      'contact.instagram': 'Instagram',
+      'contact.facebook': 'Facebook',
 
       'footer.location': '[Location]',
       'footer.top': 'Back to top ↑'
@@ -242,20 +238,6 @@
     );
 
     reveals.forEach(function (el) { observer.observe(el); });
-  }
-
-  /* ---------- CONTACT FORM ---------- */
-  const contactForm = document.getElementById('contactForm');
-  const formStatus = document.getElementById('formStatus');
-
-  if (contactForm && formStatus) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      formStatus.textContent = translations[currentLang]['contact.success'];
-      formStatus.style.opacity = '1';
-      contactForm.reset();
-      setTimeout(function () { formStatus.style.opacity = '0'; }, 5000);
-    });
   }
 
   /* ---------- BACK TO TOP ---------- */
