@@ -25,7 +25,7 @@
       'about.bio': 'نبذة مختصرة',
       'about.locationLabel': 'الموقع',
       'about.expLabel': 'سنوات الخبرة',
-      'about.expValue': '3',
+      'about.expValue': '3 سنين',
       'about.specLabel': 'التخصصات',
       'about.specValue': 'بورتريه، موضة، فعاليات، شارع، لايف ستايل، تجاري، افرح، سيشنات، اعياد ميلاد، حنه، سبوع',
 
@@ -84,7 +84,7 @@
       'about.statement': 'I photograph people, places, and moments with a focus on atmosphere, emotion, and natural storytelling.',
       'about.bio': 'Short bio',
       'about.expLabel': 'Experience',
-      'about.expValue': '3',
+      'about.expValue': '3 years',
       'about.specLabel': 'Specialties',
       'about.specValue': 'Portrait, Fashion, Events, Street, Lifestyle, Commercial, Weddings, Photo Sessions, Birthdays, Henna, Babies First Week',
 
