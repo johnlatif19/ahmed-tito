@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Tito — Photographer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">Ahmed Tito</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="#about" data-i18n="nav.about">عني</a></li>
+        <li><a href="gallery.html" data-i18n="nav.work">أعمالي</a></li>
+        <li><a href="#services" data-i18n="nav.services">خدماتي</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">تواصل</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-inner container">
+        <div class="hero-label reveal" data-i18n="hero.label">مصور فوتوغرافي / فنان بصري</div>
+        <h1 class="hero-title reveal">
+          <span>Ahmed Tito</span>
+        </h1>
+        <p class="hero-statement reveal" data-i18n="hero.statement">
+          أصنع صورًا تُروي قصصًا — لحظات، أشخاص، وأماكن من منظور سينمائي.
+        </p>
+        <div class="hero-meta reveal">
+          <span data-i18n="hero.location">القاهرة / مصر</span>
+          <span class="dot">✦</span>
+          <span data-i18n="hero.specialties">بورتريه / موضة / فعاليات</span>
+        </div>
+      </div>
+      <div class="hero-image-wrap reveal">
+        <img src="https://i.ibb.co/57b065W/Ahmed-Tito.jpg" alt="Ahmed Tito" class="hero-image">
+      </div>
+      <div class="scroll-hint container">
+        <span data-i18n="hero.scroll">اسحب للأسفل</span>
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>PHOTOGRAPHY ✦ PORTRAIT ✦ FASHION ✦ STREET ✦ LIFESTYLE ✦ COMMERCIAL ✦</span>
+        <span>PHOTOGRAPHY ✦ PORTRAIT ✦ FASHION ✦ STREET ✦ LIFESTYLE ✦ COMMERCIAL ✦</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">01</span>
+          <span class="section-label" data-i18n="about.label">عني</span>
+        </div>
+        <div class="about-grid">
+          <div class="about-statement reveal">
+            <p data-i18n="about.statement">
+              أصوّر الناس والأماكن واللحظات، مع تركيز على الجو العام، المشاعر، والسرد الطبيعي.
+            </p>
+          </div>
+          <div class="about-details reveal">
+            <p data-i18n="about.bio">[نبذة مختصرة]</p>
+            <ul class="about-list">
+              <li><span data-i18n="about.locationLabel">الموقع</span> — <span data-i18n="about.locationValue">[الموقع]</span></li>
+              <li><span data-i18n="about.expLabel">سنوات الخبرة</span> — <span data-i18n="about.expValue">[سنوات الخبرة]</span></li>
+              <li><span data-i18n="about.specLabel">التخصصات</span> — <span data-i18n="about.specValue">بورتريه، موضة، فعاليات، شارع، لايف ستايل، تجاري</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK (صورتين فقط) -->
+    <section class="section work" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">02</span>
+          <span class="section-label" data-i18n="work.label">أعمال مختارة</span>
+        </div>
+
+        <div class="work-preview-grid">
+          <article class="work-preview reveal">
+            <div class="work-image-wrap">
+              <img src="https://i.ibb.co/0jZQ7Yq/fashion-editorial.jpg" alt="Fashion" loading="lazy">
+            </div>
+            <div class="work-meta">
+              <span class="work-num">01</span>
+              <h3 data-i18n="work.p1.title">موضة</h3>
+              <p class="work-desc" data-i18n="work.p1.desc">تحرير بصري وأسلوب راقٍ.</p>
+            </div>
+          </article>
+
+          <article class="work-preview reveal">
+            <div class="work-image-wrap">
+              <img src="https://i.ibb.co/9mKqX7Y/street-photography.jpg" alt="Street" loading="lazy">
+            </div>
+            <div class="work-meta">
+              <span class="work-num">02</span>
+              <h3 data-i18n="work.p2.title">شارع</h3>
+              <p class="work-desc" data-i18n="work.p2.desc">الحياة كما تحدث.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- CTA to Gallery -->
+        <div class="gallery-cta reveal">
+          <a href="gallery.html" class="gallery-cta-btn">
+            <span data-i18n="work.cta">شاهد كل الأعمال (31)</span>
+            <span class="cta-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-num">03</span>
+          <span class="section-label" data-i18n="services.label">خدماتي</span>
+        </div>
+        <ul class="services-list">
+          <li class="service-item reveal">
+            <span class="service-num">01</span>
+            <span class="service-name" data-i18n="services.s1">تصوير بورتريه</span>
+            <span class="service-desc" data-i18n="services.s1d">جلسات فردية وعائلية</span>
+            <span class="service-arrow">↗</span>
+          </li>
+          <li class="service-item reveal">
+            <span class="service-num">02</span>
+            <span class="service-name" data-i18n="services.s2">تصوير موضة</span>
+            <span class="service-desc" data-i18n="services.s2d">تحرير بصري وحملات</span>
+            <span class="service-arrow">↗</span>
+          </li>
+          <li class="service-item reveal">
+            <span class="service-num">03</span>
+            <span class="service-name" data-i18n="services.s3">تصوير فعاليات</span>
+            <span class="service-desc" data-i18n="services.s3d">مؤتمرات، أفراح، مناسبات</span>
+            <span class="service-arrow">↗</span>
+          </li>
+          <li class="service-item reveal">
+            <span class="service-num">04</span>
+            <span class="service-name" data-i18n="services.s4">تصوير تجاري</span>
+            <span class="service-desc" data-i18n="services.s4d">منتجات وعلامات تجارية</span>
+            <span class="service-arrow">↗</span>
+          </li>
+          <li class="service-item reveal">
+            <span class="service-num">05</span>
+            <span class="service-name" data-i18n="services.s5">إدارة فنية</span>
+            <span class="service-desc" data-i18n="services.s5d">توجيه بصري للمشاريع</span>
+            <span class="service-arrow">↗</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process">
+      <div class="container">
+        <div class="process-grid">
+          <div class="process-item reveal"><span class="process-num">01</span><span data-i18n="process.p1">اكتشاف</span></div>
+          <div class="process-item reveal"><span class="process-num">02</span><span data-i18n="process.p2">تصوير</span></div>
+          <div class="process-item reveal"><span class="process-num">03</span><span data-i18n="process.p3">اختيار</span></div>
+          <div class="process-item reveal"><span class="process-num">04</span><span data-i18n="process.p4">تسليم</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section class="section social">
+      <div class="container">
+        <p class="social-label reveal" data-i18n="social.label">تابع الأعمال</p>
+        <div class="social-links reveal">
+          <a href="[INSTAGRAM URL]" target="_blank" rel="noopener">Instagram</a>
+          <a href="[BEHANCE URL]" target="_blank" rel="noopener">Behance</a>
+          <a href="[FACEBOOK URL]" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="contact-heading reveal">
+          <span data-i18n="contact.heading1">لنصنع</span>
+          <span data-i18n="contact.heading2">شيئًا</span>
+          <span data-i18n="contact.heading3">لا يُنسى.</span>
+        </h2>
+        <p class="contact-sub reveal" data-i18n="contact.sub">متاح لمشاريع مختارة.</p>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <a href="mailto:[EMAIL]" class="contact-link">[EMAIL]</a>
+            <a href="https://wa.me/[WHATSAPP]" class="contact-link">[WHATSAPP]</a>
+            <a href="[INSTAGRAM URL]" class="contact-link">[INSTAGRAM URL]</a>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <input type="text" name="name" placeholder="الاسم" data-i18n-placeholder="contact.name" required>
+            <input type="email" name="email" placeholder="البريد الإلكتروني" data-i18n-placeholder="contact.email" required>
+            <textarea name="message" rows="4" placeholder="الرسالة" data-i18n-placeholder="contact.message" required></textarea>
+            <button type="submit" data-i18n="contact.send">إرسال الاستفسار</button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Ahmed Tito</span>
+      <span data-i18n="footer.location">[الموقع]</span>
+      <div class="footer-social">
+        <a href="[INSTAGRAM URL]">IG</a>
+        <a href="[BEHANCE URL]">BE</a>
+        <a href="[FACEBOOK URL]">FB</a>
+      </div>
+      <span class="footer-copy">© 2025</span>
+      <button class="back-to-top" id="backToTop" data-i18n="footer.top">للأعلى ↑</button>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
