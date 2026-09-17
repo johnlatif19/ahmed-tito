@@ -30,10 +30,10 @@
       'about.specValue': 'بورتريه، موضة، فعاليات، شارع، لايف ستايل، تجاري، افرح، سيشنات، اعياد ميلاد، حنه، سبوع',
 
       'work.label': 'أعمال مختارة',
-      'work.p1.title': 'موضة',
-      'work.p1.desc': 'تحرير بصري وأسلوب راقٍ.',
-      'work.p2.title': 'شارع',
-      'work.p2.desc': 'الحياة كما تحدث.',
+      'work.p1.title': 'سيشن',
+      'work.p1.desc': 'سيشن افراح.',
+      'work.p2.title': 'سيشن',
+      'work.p2.desc': 'سيشن افراح.',
       'work.cta': 'شاهد كل الأعمال (31)',
 
       'services.label': 'خدماتي',
@@ -89,10 +89,10 @@
       'about.specValue': 'Portrait, Fashion, Events, Street, Lifestyle, Commercial, Weddings, Photo Sessions, Birthdays, Henna, Babies First Week',
 
       'work.label': 'Selected Work',
-      'work.p1.title': 'Fashion',
-      'work.p1.desc': 'Editorial vision and refined style.',
-      'work.p2.title': 'Street',
-      'work.p2.desc': 'Life as it happens.',
+      'work.p1.title': 'Photo Session',
+      'work.p1.desc': 'Wedding Photo Session.',
+      'work.p2.title': 'Photo Session',
+      'work.p2.desc': 'Wedding Photo Session.',
       'work.cta': 'View all work (31)',
 
       'services.label': 'Services',
