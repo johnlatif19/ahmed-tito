@@ -22,13 +22,12 @@
 
       'about.label': 'عني',
       'about.statement': 'أصوّر الناس والأماكن واللحظات، مع تركيز على الجو العام، المشاعر، والسرد الطبيعي.',
-      'about.bio': '[نبذة مختصرة]',
+      'about.bio': 'نبذة مختصرة',
       'about.locationLabel': 'الموقع',
-      'about.locationValue': '[الموقع]',
       'about.expLabel': 'سنوات الخبرة',
-      'about.expValue': '[سنوات الخبرة]',
+      'about.expValue': '3',
       'about.specLabel': 'التخصصات',
-      'about.specValue': 'بورتريه، موضة، فعاليات، شارع، لايف ستايل، تجاري',
+      'about.specValue': 'بورتريه، موضة، فعاليات، شارع، لايف ستايل، تجاري، افرح، سيشنات، اعياد ميلاد، حنه، سبوع',
 
       'work.label': 'أعمال مختارة',
       'work.p1.title': 'موضة',
@@ -83,13 +82,11 @@
 
       'about.label': 'About',
       'about.statement': 'I photograph people, places, and moments with a focus on atmosphere, emotion, and natural storytelling.',
-      'about.bio': '[Short bio]',
-      'about.locationLabel': 'Location',
-      'about.locationValue': '[Location]',
+      'about.bio': 'Short bio',
       'about.expLabel': 'Experience',
-      'about.expValue': '[Years of experience]',
+      'about.expValue': '3',
       'about.specLabel': 'Specialties',
-      'about.specValue': 'Portrait, Fashion, Events, Street, Lifestyle, Commercial',
+      'about.specValue': 'Portrait, Fashion, Events, Street, Lifestyle, Commercial, Weddings, Photo Sessions, Birthdays, Henna, Babies First Week',
 
       'work.label': 'Selected Work',
       'work.p1.title': 'Fashion',
